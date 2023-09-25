@@ -1,10 +1,15 @@
 # Hi there ✋!
 
+
+
 ## What is this?
 This is the repository of a bootloader with application for arm cortex-m4 controller.
 In this repo, I have partitioned the flash memory of the controller and allocated spaces 
 for bootloader and the application. The boot program gets initiated and then MSP calls
 the starting address of the application.
+
+
+
 
 #### Need for bootloader in Controllers:
 There is no need for bootloaders for our personal applications in microcontrollers.
@@ -13,6 +18,14 @@ every time we cannot connect JTAG/ST-Link based system for the product for multi
 right , having a bootloader solves the issue then you don't need a debugger or flasher for 
 flashing the firmware. This will also reduce the security threats if someone tries to configure
 or hack the system this kind of vulnerabilities will also reduce.
+
+### Programming Languages:
+
+<p>
+  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
+  <img src="https://img.shields.io/badge/Make-D05B5B?style=for-the-badge&logo=gnu-make&logoColor=white"/>  
+  <img src="https://img.shields.io/badge/Assembly-008000?style=for-the-badge&logo=assembly&logoColor=white"/> 
+</p>
 
 
 
